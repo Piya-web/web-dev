@@ -1,0 +1,236 @@
+<!--document type-->
+<!DOCTYPE html>
+
+<!--language of the website-->
+<html lang="en">
+
+<!--claud.ai-->
+
+<head>
+
+<!--css styles-->
+<style>
+<!--class-->
+.mygrp{
+backgroundcolor: yellow;
+}
+.main{
+color:red;
+font size 75px;
+}
+#my_id{
+background-color: lightblue;
+color:black;
+padding: 40px;
+text allign: center;
+}
+body {background-color: powderblue;}
+h1 {color:blue;}
+p{color:red;}
+pre{color:white;}
+</style>
+<!--title of my webpage-->
+<title>html tutorial</title>
+</head>
+
+
+<!--table designing-->
+<style>
+table,th,td{
+border:1px solid black;
+}
+</style>
+
+
+<!-- changing background color-->
+<!--style="background-color:powderblue;"-->
+
+<body> 
+<hr>
+<!--we can initialize the font size by ourselves-->
+<h1 style="font-size:60px;"> My first heading </h1>
+
+<hr>
+<!--changing the font style-->
+<p style="font-family:courier;"> my first paragrph </p>
+
+<hr>
+<!--colouring the border -->
+<h1 style="border:2px solid tomato;">heyy</h1>
+
+<hr>
+<!--pre tags are used to print with the gaps and the next lines as it is given in the program also we a assigning the font size and the alignment-->
+<pre style="font-size:120%; text-align:center;">
+hii
+welcome to my website
+</pre>
+
+<hr>
+<!--color changing-->
+<p style="color:red;">this is red paragraph.</p>
+
+<hr>
+<!--link-->
+<h3><a href="https://www.w3schools.com">this</a> 
+
+<br>
+<hr>
+<!--in this if you move your cursor over girl it will show brief-->
+<p title="brief">girl.</p>
+<p title="about w3schools">w3school is a web developer's site.</p>
+
+<hr>
+<!--image-->
+<img src="w3schools.jpg" alt="W3Schools.com" width="250" height="400">
+<hr>
+
+<hr>
+<!--you can use image as a link-->
+<a href="https.www.google.com"><img src="smiley gif" alt="emogi here" style="width:42px;height:42px;"></a>
+<hr>
+
+<hr>
+<!--if you wanna give someone mail-->
+<a href="piyaadhikarigts@gmail.com">send email</a>
+<hr>
+
+<hr>
+<!--buttons as links javascript helps for buttons-->
+<button onclick="document.location='default.asp'">click me</button>
+<hr>
+
+<hr>
+<!--links on title-->
+<a href="https://www.google.com"title="go to google">browse google</a>
+<hr>
+
+<hr>
+<!--to jump to a required place-->
+<p><a href="#c4">jump to ch4</a></p><!--c4 m aise jayega kuki # stands for id jiske sath id match hoga waha tk skip ho jyegaa-->
+<h2 id=c1>chapter 1</h2>
+<p> bla bla blaahhh </p>
+<h2 id=c2>chapter 2</h2>
+<p> bla bla blaahhh </p>
+<h2 id=c3>chapter 3</h2>
+<p> bla bla blaahhh </p>
+<h2 id=c4>chapter 4</h2>
+<p> bla bla blaahhh </p>
+<h2 id=c5>chapter 5</h2>
+<p> bla bla blaahhh </p>
+<h2 id=c6>chapter 6</h2>
+<p> bla bla blaahhh </p>
+<h2 id=c7>chapter 7</h2>
+<p> bla bla blaahhh </p>
+<h2 id=c8>chapter 8</h2>
+<p> bla bla blaahhh </p>
+<hr>
+
+<hr>
+<!--favicon stands for the icon of my webpage-->
+<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+<hr>
+
+<hr>
+<!--table <tr> table row <td> table data <th> table header-->
+<caption> A BASIC TABLE</caption>
+<table style="width:100%">
+<tr>
+<th>COMPANY</th>
+<th>CONTACT</th>
+<th>COUNTRY</th>
+</tr>
+<tr>
+<td>hlarry huda</td>
+<td>kismis</td>
+<td>us</td>
+</tr>
+</table>
+<br>
+<br>
+<!--padding is the gap between te borders and the content inside a cell-->
+
+
+<hr>
+<!--lists unordered list m bullets aate h and ordered wale m numbers-->
+<h2> AN UNORDERED LIST</h2>
+<ul>
+<li>coffee</li>
+<li>tea</li>
+<li>colddrink</li>
+</ul>
+
+<h2>AN ORDERED LIST</h2>
+<ol>
+<li>coffee</li>
+<li>tea</li>
+<li>cold drink</li>
+</ol>
+<hr>
+
+<!--DESCRIBING A LIST ELEMENT WE USE <dl> defines the descriptive list as <ul> and <ol>, <dt> defines the descriptive element like<li>, <dd> is the descrption-->
+<dl>
+<dt>milk</dt>
+<dd> -a warm drink</dd>
+<dt>coffee</dt>
+<dd> -a cold drink</dd>
+</dl>
+
+<hr>
+
+<!--class-->
+<h2 class="mygrp main"> MY HEADING</h2>
+<p class="mygrp"> this is only one class</p>
+<hr>
+
+
+<hr>
+<!--id-->
+<h2 id="my_id"> MY HEADER</h2>
+</hr>
+
+<!--form-->
+<form action="/action.php">
+<input type="text" placeholder="username">
+<input type="password" placeholder="password">
+<br>
+<h5>ENTER YOUR CLASS</h5>
+<br>
+<!--radio button-->
+<label for="101">
+<input type="radio" value="classXI" name="class" id="101">classXI
+</label>
+<br>
+<label for="102">
+<input type="radio" value="classXII" name="class" id="102">classXII
+</label>
+<br>
+<H5> select your subject</H5>
+<br>
+<label for="math">
+<input type="checkbox" value="math" name="subject" id="101"> MATH
+</label>
+<label for="phy">
+<input type="checkbox" value="phy" name="subject" id="102"> PHY
+</label>
+<label for="eng">
+<input type="checkbox" value="eng" name="subject" id="103"> ENG
+</label>
+<br>
+SELECT YOUR CITY
+<select name="city">
+<option value="delhi">DELHI</option>
+<option value="mumbai"> MUMBAI</option>
+<option value="bankok">BANGKOK</option>
+</select>
+
+<br>
+<textarea name="fedback" id="11" placeholder="feedback" rows=5>FEEDBACK</textarea>
+<BR>
+<input type="submit" value="submit">
+</form> 
+<br>
+<br>
+<hr>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=s49uurt_k6TGpYT_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>
